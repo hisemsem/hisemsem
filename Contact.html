@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bomnal Cosmetics</title>
+        <style>
+            h1 {
+                color:rgb(47, 47, 125);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+            }
+            h4 {
+                text-align: right;
+                color:rgb(47, 47, 125);
+                font-weight: lighter;
+                
+            }
+            a {
+                text-decoration: none;
+               color:rgb(47, 47, 125);
+               
+            } 
+            p {
+               text-align:right; 
+            }
+            .img .content{
+                position: absolute;
+                top:40%;
+                left:20%;
+                transform: translate(-50%, -50%);               
+                font-size:3rem;
+                color: rgb(0, 0, 0);
+                text-align: left;
+            }
+            .i .c {
+                position: absolute;
+                top:58%;
+                left:17%;
+                transform: translate(-50%, -50%);               
+                font-size:1.5rem;
+                color: rgb(255, 255, 255);
+                text-align: left;
+            }
+            .ii .cc {
+                position: absolute;
+                top:40%;
+                left:60%;
+                transform: translate(-50%, -50%);               
+                font-size:3rem;
+                color: rgb(0, 0, 0);
+                text-align: left;
+            }
+            .iii .ccc {
+                position: absolute;
+                top:60%;
+                left:63%;
+                transform: translate(-50%, -50%);               
+                font-size:1.5rem;
+                color: rgb(255, 255, 255);
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <br><h1>&nbsp;&nbsp;Bomnal Cosmetics</h1>
+        <p>
+        <a href="finalHw.html">Home</a>&nbsp&nbsp
+        <a href="About.html">About</a>&nbsp&nbsp
+        <a href="Product.html">Product</a>&nbsp&nbsp
+        <a href="Contact.html">Contact</a>&nbsp&nbsp
+        </p>
+        
+        <img src="./img/pic.webp" width="1500" height="600">
+        <div class="img">
+            <div class="content">
+                <h4>Contact representative</h4> 
+               
+            </div>
+        </div>
+        <div class="i">
+            <div class="c">
+                name: 이세미<br>
+                call: 010-4898-5932<br>
+                e-mail: smvb2001@naver.com<br>
+                location: 서울시 노원구<br>
+                       </div>
+        </div>
+        <div class="ii">
+            <div class="cc">
+                <h4>sign up</h4>
+            </div>
+        </div>
+        <div class="iii">
+            <div class="ccc">
+                <form action="adduser.jsp" method="post">
+                    <p>
+                        이름:
+                        <input type="text" name="name"><br>
+                        주소:
+                        <input type="text" name="address"><br>
+                        email:
+                        <input type="email" name="email" required><br>
+                        <input type="radio" name="gender" value="Male">Male<br>
+                        <input type="radio" name="gender" value="Female">Female<br>
+                        <input type="submit" value="Send">
+                        <input type="reset">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
